@@ -18,9 +18,7 @@ export class PokeTableComponent implements OnInit {
   ngOnInit(): void {
     this.getPokemons();
   }
-  searchPoke(){
-    
-  };
+  
   getPokemons(){
 
     for (let i = 1; i <= 151; i++){

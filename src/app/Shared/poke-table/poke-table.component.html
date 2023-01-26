@@ -1,5 +1,5 @@
 <div class="filter">
-    <input type="text" class="search" name="filterPoke" placeholder="Find your Pikachu" [(ngModel)]="filterPoke">
+    <input type="text" class="search" name="filterPoke" placeholder="Find your Pikachu..." [(ngModel)]="filterPoke">
 </div>
 <div class="table">
     <div class="carp" *ngFor="let pokemon of pokemons | filter:filterPoke; index as i">

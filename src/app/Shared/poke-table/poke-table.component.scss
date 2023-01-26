@@ -48,6 +48,18 @@
 }
 
 .filter{
-    justify-self: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
     background-color: rgb(12, 10, 48);
+    padding-top: 3rem;
+    .search{
+        height: 50px;
+        width: 70%;
+        border-radius: 60px;
+        font-size: 25px;
+        font-family: sans-serif;
+        text-align: center;
+        }
+        
 }
