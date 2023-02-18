@@ -25,7 +25,7 @@
  
 }
 .poke_img{
-    margin: auto 3rem;
+    margin: auto -0.5rem;
     height: 180px;
     
 }
@@ -66,31 +66,9 @@
         margin-left: 2.8rem 
         }
         
-}
-
-@media (max-width: 450px){
-    .carp{
-        background-color: rgb(192, 199, 209);
-        box-shadow: 9px 9px teal;
-        border-radius: 60px;
-        padding: 0.5rem auto;
-        margin-bottom: 1.5rem;
-     
-    }
-
 
 }
 
-@media (max-width: 280px){
-    .carp{
-        background-color: rgb(192, 199, 209);
-        box-shadow: 9px 9px teal;
-        border-radius: 60px;
-        padding: 0.5rem auto;
-        margin-bottom: 1rem;
-     
-        
-    }
 
 
-}
+
