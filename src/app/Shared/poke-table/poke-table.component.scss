@@ -13,6 +13,7 @@
     background-color: rgb(12, 10, 48);
     
     
+    
 }
 
 .carp{
@@ -69,7 +70,12 @@
 
 @media (max-width: 450px){
     .carp{
-        scale: 65%;
+        background-color: rgb(192, 199, 209);
+        box-shadow: 9px 9px teal;
+        border-radius: 60px;
+        padding: 0.5rem auto;
+        margin-bottom: 1.5rem;
+     
     }
 
 
@@ -77,7 +83,13 @@
 
 @media (max-width: 280px){
     .carp{
-        scale: 50%;
+        background-color: rgb(192, 199, 209);
+        box-shadow: 9px 9px teal;
+        border-radius: 60px;
+        padding: 0.5rem auto;
+        margin-bottom: 1rem;
+     
+        
     }
 
 
