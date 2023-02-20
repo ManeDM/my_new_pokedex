@@ -17,35 +17,35 @@
 }
 
 .carp{
-    background-color: rgb(192, 199, 209);
+    background-color: rgb(184, 186, 189);
     box-shadow: 9px 9px #3b4268;
-    border-radius: 60px;
+    border-radius: 15px;
     padding: 1rem 1rem 0.9rem 4rem;
     margin-bottom: 2rem;
  
 }
 .poke_img{
-    margin: auto -0.5rem;
+    margin: auto 0.5rem;
     height: 180px;
     
 }
 
 .title{
-    justify-content: center;
+    flex-direction: row;
+    justify-content: column;
     text-transform: capitalize;
     font-family: sans-serif;
     text-shadow: 1.5px 1px teal;
     
-    h3{
-        margin-left: 5rem;
-    }
+   
 }
 
 .types{
    display: flex;
    flex-direction: row;
-   justify-content: space-evenly;
+   justify-content: space-around;
    font-family: sans-serif;
+   margin-right: 2.5rem;
    
 }
 

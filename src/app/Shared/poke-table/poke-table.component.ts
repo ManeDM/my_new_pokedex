@@ -27,6 +27,7 @@ export class PokeTableComponent implements OnInit {
       this.pokeService.getPokemons(i).subscribe(
         res => {
           this.pokemons.push(res)
+          console.log(res)
         },
         err => {
           console.log('Error: ', err)
