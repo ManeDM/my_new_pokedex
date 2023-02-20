@@ -14,6 +14,7 @@ import { FilterPipe } from './pipes/filter.pipe';
 import { FormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from './app-routing.module';
+import { PokeTeamComponent } from './Shared/poke-team/poke-team.component';
 
 
 
@@ -25,6 +26,7 @@ import { AppRoutingModule } from './app-routing.module';
     PokeTableComponent,
     FilterPipe,
     HomeComponent,
+    PokeTeamComponent,
    
     
   ],
