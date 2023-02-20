@@ -7,16 +7,27 @@
     box-sizing: border-box;
     margin: 0 auto;
     height: 100vh;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
   }
   
   .intro_vid {
-    background: black;
+    background: none;
   }
   
   .vid {
     height: 50vw; /* ajustar la altura en relación con el ancho de la pantalla */
-    max-height: 40rem; /* establecer una altura máxima para la pantalla más pequeña */
+    max-height: 50rem; /* establecer una altura máxima para la pantalla más pequeña */
     width: 100%; /* asegurarse de que el ancho sea del 100% */
     object-fit: cover; /* asegurarse de que la imagen de video cubra todo el contenedor */
+    
+    
+  }
+
+
+  @media (max-width: 500px) {
+    .vid{
+        margin-bottom: 30rem;
+        margin-left: 1.5rem;
+    }
+    
   }
