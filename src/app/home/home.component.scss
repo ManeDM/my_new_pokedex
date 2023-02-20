@@ -1,0 +1,21 @@
+
+.home_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0 auto;
+  height: 100vh; /* altura del 100% de la ventana */
+  max-width: 1200px;
+  background: black;
+}
+
+.intro_vid{
+    background: black;
+}
+
+.vid{
+    height: 40rem;
+}

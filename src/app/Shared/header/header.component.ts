@@ -18,7 +18,7 @@ export class HeaderComponent implements OnInit {
     menu?.classList.toggle("menu-expanded");
     menu?.classList.toggle("menu-collapsed")
 
-    document.querySelector('body')?.classList.toggle('body-expanded');
+    document.querySelector('body')?.classList.toggle('body-collapsed');
     
   });
   }
