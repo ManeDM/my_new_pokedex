@@ -1,1 +1,7 @@
-<p>poke-team works!</p>
+<h2>My Team</h2>
+<div *ngIf="selectedPokemons.length === 0">You haven't selected any pokemon yet.</div>
+<div *ngFor="let pokemon of selectedPokemons">
+    <h2>{{ pokemon.id }}</h2>
+    <h2>{{pokemon.name}}</h2>
+    
+  </div>

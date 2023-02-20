@@ -8,7 +8,8 @@ import { PokeTeamComponent } from './Shared/poke-team/poke-team.component';
 const routes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'pokedex', component: PokeTableComponent},
-  {path: 'team', component: PokeTeamComponent}
+  {path: 'team', component: PokeTeamComponent},
+  { path: 'poke-team/:selected', component: PokeTeamComponent }
 
   
 ];
