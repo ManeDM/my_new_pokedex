@@ -1,21 +1,22 @@
 
-.home_container{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-  box-sizing: border-box;
-  margin: 0 auto;
-  height: 100vh; /* altura del 100% de la ventana */
-  max-width: 1200px;
-  background: black;
-}
-
-.intro_vid{
+.home_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: black;
+  }
+  
+  .intro_vid {
     background: black;
-}
-
-.vid{
-    height: 40rem;
-}
+  }
+  
+  .vid {
+    height: 50vw; /* ajustar la altura en relación con el ancho de la pantalla */
+    max-height: 40rem; /* establecer una altura máxima para la pantalla más pequeña */
+    width: 100%; /* asegurarse de que el ancho sea del 100% */
+    object-fit: cover; /* asegurarse de que la imagen de video cubra todo el contenedor */
+  }
